@@ -1,0 +1,35 @@
+:root {
+  
+  --primaryRGBA: rgba(0, 0, 0, 0.3);
+  
+  --darkGrey: #5f5e5e; --mainWhite: #fff; --mainBlack: #222;
+  
+  --mainTransition: all 0.5s ease-in-out; --mainSpacing: 0.3rem;
+}
+
+.text-main {color: black; font-size: 18px; font-weight: bold;}
+
+body {overflow-x: hidden; font-family: 'Roboto', sans-serif;}
+
+.main-link {
+  
+  padding: 0.5rem 1rem; background: var(--primaryColor);
+  
+  color: var(--mainWhite); display: inline-block;
+  
+  text-transform: uppercase;
+  
+  outline: 2px solid var(--primaryColor); 
+  
+  border: none; transition: var(--mainTransition);
+
+}
+
+.main-link:hover {
+  
+  background: var(--darkGrey);
+  
+  outline-color: var(--darkGrey);
+
+}
+
